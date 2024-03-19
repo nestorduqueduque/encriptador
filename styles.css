@@ -1,0 +1,197 @@
+:root {
+    --color-fondo-body: #1f1f1f;
+    --color-fondo-secundario: #333;
+    --color-texto-principal: #ffffff;    
+    --color-texto-secundario: #cccccc; 
+    --color-texto-alerta: #495057;
+    --color-borde: #0A3871;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--color-texto-principal);
+}
+
+body{
+    background-color: var(--color-fondo-body);
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-fondo-secundario);
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-text-box{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 1080px;
+    height: 600px;
+    background-color: var(--color-fondo-secundario);
+}
+
+.box-text{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--color-fondo-secundario);
+    cursor: pointer;
+    color: var(--color-texto-principal);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.cajatexto::placeholder{
+    color: var(--color-fondo-secundario);
+}
+
+.alert{
+    position: absolute;
+    top: 750px;
+    left: 370px;
+    display: flex;
+    color: var(--color-fondo-secundario);
+}
+
+.container-buttons{
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 15px;
+}
+
+.btn-encriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: var(--color-borde);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: var(--color-fondo-secundario);
+    color: var(--color-texto-principal);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid var(--color-texto-principal);
+    cursor: pointer;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 840px;
+    right: 50px;
+    padding-right: 20px;
+    background-color: var(--color-fondo-secundario);
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.container-muneco{
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.container-p{
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 40px;
+ }
+
+ .container-p h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: var(--color-texto-secundario);
+}
+
+.container-p p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-texto-secundario);
+    padding-top: 20px;
+}
+
+.container-result{
+    position: absolute;
+    bottom: 330px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.container-result p{
+    color: var(--color-texto-secundario);
+    font-size: 25px;
+}
+
+.container-copy{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: var(--color-fondo-secundario);
+    padding-left: 40px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: var(--color-fondo-body);
+    color: var(--color-texto-principal);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid var(--color-texto-principal);
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+}
+
+.ocultar{
+    display: none;
+}
+
